@@ -21,9 +21,11 @@ const Navbar = () => {
         >
             <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
             <p className='text-white text-[18px] font-bold cursor-pointer flex'>
-              Hanbin &nbsp; 
+              Hanbin's Portfolio 
+              {/* &nbsp; 
               <span className='sm:block hidden'>
-                |&nbsp; A Potential Web Developer</span></p>
+                |&nbsp; A Potential Web Developer</span> */}
+                </p>
           </Link>
 
 
