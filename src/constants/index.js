@@ -114,60 +114,61 @@ import {
     },
   ];
   
+
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Web Developer Intern",
+      company_name: "Pinnacle Education Consulting",
       icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      //icon: pinnacleEducationConsulting, // Add your icon here
+      iconBg: "#383E56", // Change background color if necessary
+      date: "May 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Conceptualized and constructed a comprehensive web application from scratch, leveraging expertise in React, the Next.js framework, and Tailwind CSS for frontend design and development.",
+        "Seamlessly integrated OpenAI API into our platform, harnessing the power of artificial intelligence to bolster web application functionality.",
+        "Devised and implemented potent SEO strategies, resulting in a 48% increase in website visibility and improved user engagement."
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Web Developer Intern",
+      company_name: "US Overseas Student Union",
       icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      //icon: usOverseasStudentUnion, // Add your icon here
+      iconBg: "#E6DEDD", // Change background color if necessary
+      date: "Apr 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Effectively transformed the organization's online presence, employing PHP and database management skills to build and maintain their website.",
+        "Designed and implemented responsive website layouts, optimized site performance, and ensured an engaging and user-friendly interface."
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
+      title: "Marketing Analyst Intern",
+      company_name: "US Overseas Student Union",
       icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      //icon: usOverseasStudentUnion, // Add your icon here
+      iconBg: "#383E56", // Change background color if necessary
+      date: "Mar 2023 - May 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Utilized data-driven strategies to identify and cultivate potential collaborations, broadening our event's appeal and reach.",
+        "Created and managed a comprehensive database for storing and analyzing marketing data, facilitating informed decision-making and the formulation of efficient marketing strategies.",
+        "Employed data analytics to uncover hidden patterns and trends, providing valuable insights that guided our marketing initiatives and boosted event success by 60%"
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
+      title: "Teals Volunteer",
+      company_name: "Volunteer Experience",
       icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      //icon: volunteerExperience, // Add your icon here
+      iconBg: "#E6DEDD", // Change background color if necessary
+      date: "July 2023 – Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Played a key role in educating both teachers and students about computer science.",
+        "Helped teachers learn how to effectively instruct computer programming and directly mentored students. I utilized my computer science expertise in a unique educational setting and made a significant impact on the development of future technologists."
       ],
     },
   ];
+
+
   
   const testimonials = [
     {
