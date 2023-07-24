@@ -21,10 +21,9 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import pinnacleEdu from "./company/pinnacleEdu.png";
+import usosu from "./company/usosu.jpg";
+import mincrosft from "./company/mincrosft.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -39,6 +38,7 @@ export {
   github,
   menu,
   close,
+
   css,
   docker,
   figma,
@@ -52,10 +52,11 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+
+  pinnacleEdu, 
+  usosu,
+  mincrosft,
+  
   carrent,
   jobit,
   tripguide,

@@ -15,10 +15,11 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+
+    pinnacleEdu,
+    usosu,
+    mincrosft,
+    
     carrent,
     jobit,
     tripguide,
@@ -119,9 +120,8 @@ import {
     {
       title: "Web Developer Intern",
       company_name: "Pinnacle Education Consulting",
-      icon: starbucks,
-      //icon: pinnacleEducationConsulting, // Add your icon here
-      iconBg: "#383E56", // Change background color if necessary
+      icon: pinnacleEdu,
+      iconBg: "#383E56", 
       date: "May 2023 - Present",
       points: [
         "Conceptualized and constructed a comprehensive web application from scratch, leveraging expertise in React, the Next.js framework, and Tailwind CSS for frontend design and development.",
@@ -132,9 +132,8 @@ import {
     {
       title: "Web Developer Intern",
       company_name: "US Overseas Student Union",
-      icon: tesla,
-      //icon: usOverseasStudentUnion, // Add your icon here
-      iconBg: "#E6DEDD", // Change background color if necessary
+      icon: usosu,
+      iconBg: "#E6DEDD", 
       date: "Apr 2023 - Present",
       points: [
         "Effectively transformed the organization's online presence, employing PHP and database management skills to build and maintain their website.",
@@ -144,9 +143,8 @@ import {
     {
       title: "Marketing Analyst Intern",
       company_name: "US Overseas Student Union",
-      icon: shopify,
-      //icon: usOverseasStudentUnion, // Add your icon here
-      iconBg: "#383E56", // Change background color if necessary
+      icon: usosu,
+      iconBg: "#383E56", 
       date: "Mar 2023 - May 2023",
       points: [
         "Utilized data-driven strategies to identify and cultivate potential collaborations, broadening our event's appeal and reach.",
@@ -157,9 +155,8 @@ import {
     {
       title: "Teals Volunteer",
       company_name: "Volunteer Experience",
-      icon: meta,
-      //icon: volunteerExperience, // Add your icon here
-      iconBg: "#E6DEDD", // Change background color if necessary
+      icon: mincrosft,
+      iconBg: "#E6DEDD", 
       date: "July 2023 – Present",
       points: [
         "Played a key role in educating both teachers and students about computer science.",
