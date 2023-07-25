@@ -10,11 +10,15 @@ import Contact from './Contact';
 export {
   Hero,
   Navbar,
+
+  
   About,
   Tech,
   Experience,
   Works,
   Contact,
+
+
   EarthCanvas, 
   BallCanvas, 
   ComputersCanvas, 
