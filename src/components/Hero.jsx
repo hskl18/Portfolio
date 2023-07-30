@@ -10,13 +10,13 @@ const Hero = () => {
       flex flex-row items-start gap-5`}>
 
         <div className='flex flex-col justify-center items-center mt-5'>
-          <div className='w-5 h-5 rounded-full bg-[rgb(119,212,252)]' />
-          <div className='w-1 sm:h-80 h-40 blue-gradient' />
+          <div className='w-5 h-5 rounded-full bg-[rgb(182,221,238)]' />
+          <div className='w-1 sm:h-80 h-40 bg-[rgb(182,221,238)] blue-gradient' />
         </div>
         
         <div>
             <h1 className={`${styles.heroHeadText} text-white`}>
-              Hi, I am <span className='text-[rgb(119,212,252)]'>
+              Hi, I am <span className='text-[rgb(182,221,238)]'>
                 Hanbin
               </span>
             </h1>
