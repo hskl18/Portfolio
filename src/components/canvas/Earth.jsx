@@ -30,7 +30,7 @@ const EarthCanvas = () => {
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
           autoRotate
-          autoRotateSpeed={3}  // Increase this value to increase rotation speed
+          autoRotateSpeed={3.4}  // Increase this value to increase rotation speed
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
