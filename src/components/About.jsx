@@ -49,8 +49,13 @@ const About = () => {
       <motion.p variants={fadeIn('','',.1,1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'      
       >
-        Hey, I am Hanbin Tan and currently learning web development and mechine learning. 
-        
+        Hello and welcome to my portfolio! I am Hanbin Tan, hailing from California, 
+        and this platform serves as a showcase of my knowledge and the projects I've undertaken.
+        My journey has involved learning and applying skills in both web development and machine learning. 
+        The projects featured here, which have been published on GitHub, provide tangible evidence of the 
+        lessons I've learned and the expertise I've developed in these fields.
+        Please feel free to explore my portfolio and gain an understanding of my work.
+      
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

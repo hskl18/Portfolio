@@ -45,7 +45,7 @@ import {
   const services = [
     {
       title: "Passionate Learner",
-      icon: mobile,
+      icon: creator,
     },
     {
       title: "Data Analyst",
@@ -57,7 +57,7 @@ import {
     },
     {
       title: "Creative Thinker",
-      icon: creator,
+      icon: mobile,
     },
   ];
   
@@ -125,15 +125,15 @@ import {
 
   const experiences = [
     {
-      title: "Web Developer Intern",
-      company_name: "Pinnacle Education Consulting",
-      icon: pinnacleEdu,
+      title: "Marketing Analyst Intern",
+      company_name: "US Overseas Student Union",
+      icon: usosu,
       iconBg: "#383E56", 
-      date: "May 2023 - Present",
+      date: "Mar 2023 - May 2023",
       points: [
-        "Conceptualized and constructed a comprehensive web application from scratch, leveraging expertise in React, the Next.js framework, and Tailwind CSS for frontend design and development.",
-        "Seamlessly integrated OpenAI API into our platform, harnessing the power of artificial intelligence to bolster web application functionality.",
-        "Devised and implemented potent SEO strategies, resulting in a 48% increase in website visibility and improved user engagement."
+        "Utilized data-driven strategies to identify and cultivate potential collaborations, broadening our event's appeal and reach.",
+        "Created and managed a comprehensive database for storing and analyzing marketing data, facilitating informed decision-making and the formulation of efficient marketing strategies.",
+        "Employed data analytics to uncover hidden patterns and trends, providing valuable insights that guided our marketing initiatives and boosted event success by 60%"
       ],
     },
     {
@@ -148,15 +148,15 @@ import {
       ],
     },
     {
-      title: "Marketing Analyst Intern",
-      company_name: "US Overseas Student Union",
-      icon: usosu,
+      title: "Web Developer Intern",
+      company_name: "Pinnacle Education Consulting",
+      icon: pinnacleEdu,
       iconBg: "#383E56", 
-      date: "Mar 2023 - May 2023",
+      date: "May 2023 - Present",
       points: [
-        "Utilized data-driven strategies to identify and cultivate potential collaborations, broadening our event's appeal and reach.",
-        "Created and managed a comprehensive database for storing and analyzing marketing data, facilitating informed decision-making and the formulation of efficient marketing strategies.",
-        "Employed data analytics to uncover hidden patterns and trends, providing valuable insights that guided our marketing initiatives and boosted event success by 60%"
+        "Conceptualized and constructed a comprehensive web application from scratch, leveraging expertise in React, the Next.js framework, and Tailwind CSS for frontend design and development.",
+        "Seamlessly integrated OpenAI API into our platform, harnessing the power of artificial intelligence to bolster web application functionality.",
+        "Devised and implemented potent SEO strategies, resulting in a 48% increase in website visibility and improved user engagement."
       ],
     },
     {
