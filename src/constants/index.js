@@ -4,11 +4,9 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
@@ -17,8 +15,6 @@ import {
     git,
     java,
     go,
-    figma,
-    docker,
     dJango,
     nextjs,
     pinnacleEdu,
@@ -48,19 +44,19 @@ import {
   
   const services = [
     {
+      title: "Passionate Learner",
+      icon: mobile,
+    },
+    {
+      title: "Data Analyst",
+      icon: backend,
+    },
+    {
       title: "Web Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
+      title: "Creative Thinker",
       icon: creator,
     },
   ];

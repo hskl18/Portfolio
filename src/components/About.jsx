@@ -49,9 +49,8 @@ const About = () => {
       <motion.p variants={fadeIn('','',.1,1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'      
       >
-        Hey, My name is Hanbin Tan and I am currently a sophomore studying computer 
-        science at Pasadena City College. I am proficient in C++, Java, HTML, and CSS. 
-        I am currently looking for software engineering internships for Summer 2023.
+        Hey, I am Hanbin Tan and currently learning web development and mechine learning. 
+        
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
