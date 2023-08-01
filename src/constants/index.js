@@ -1,5 +1,4 @@
 import {
-    mobile,
     backend,
     creator,
     web,
@@ -55,10 +54,10 @@ import {
       title: "Web Developer",
       icon: web,
     },
-    {
-      title: "Creative Thinker",
-      icon: mobile,
-    },
+    // {
+    //   title: "Creative Thinker",
+    //   icon: mobile,
+    // },
   ];
   
   const technologies = [
