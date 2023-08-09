@@ -36,21 +36,25 @@ const ServiceCard = ({ index, title, icon }) => (
 );
 
 const About = () => {
+
+  
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionSubText}>Overview of Me</h2>
+        <p className={styles.sectionHeadText }>Introduction</p>
       </motion.div>
 
       <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        variants={textVariant()}
+        className='mt-6 text-secondary text-[17px] leading-[30px] text-center items-center justify-center mx-auto'
+        style={{ maxWidth: '888px' }}  
       >
         Hello and welcome to my portfolio! I am Hanbin Tan, hailing from California, and this platform serves as a showcase of my knowledge and the projects I've undertaken. My journey has involved learning and applying skills in both web development and machine learning. The projects featured here, which have been published on GitHub, provide tangible evidence of the lessons I've learned and the expertise I've developed in these fields. Please feel free to explore my portfolio and gain an understanding of my work.
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+
+      <div className='mt-20 flex flex-wrap gap-10 items-center justify-center'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
