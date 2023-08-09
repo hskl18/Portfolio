@@ -9,8 +9,52 @@ import { logo, menu, close } from "../assets";
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false)
+  const [scrolled, setScrolled] = useState(false);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+        const currentScrollY = window.scrollY;
+
+        if (currentScrollY < lastScrollY) {
+            // If current scroll position is less than last position, user is scrolling up
+            setScrolled(false);
+        } else if (currentScrollY > 50) {  
+            setScrolled(true);
+        }
+
+        // Update the last recorded scroll position
+        setLastScrollY(currentScrollY);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+        window.removeEventListener('scroll', handleScroll);
+    };
+}, [lastScrollY]); // Make sure to include lastScrollY as a dependency
+
+
+  useEffect(() => {
+    const handleScroll = () => {
+        const offset = window.scrollY;
+        if (offset > 50) {  // The value after which you want to trigger the change
+            setScrolled(true);
+        } 
+        else {
+            setScrolled(false);
+        }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+        window.removeEventListener('scroll', handleScroll);
+    };
+}, []);
+
+
   return (
-    <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-transparent`}>
+    <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 transform-color-nav`}>
+      {!scrolled && (
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
         <Link 
           to='/' className='flex items-center gap-2'
@@ -76,10 +120,9 @@ const Navbar = () => {
                   }
                 </ul>
             </div>
-
-
           </div>
       </div>
+      )}
     </nav>
   )
 }

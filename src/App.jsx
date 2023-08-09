@@ -4,17 +4,15 @@ import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas } fr
 const App = () => {
   return (
     <BrowserRouter>
-      <div className='relative z-0 bg-cover bg-no-repeat bg-center min-h-screen'>
-        <div className='bg-transparent'>
-          <StarsCanvas />
+      <div className='relative z-0 bg-cover bg-no-repeat bg-center min-h-screen bg-[rgb(19,19,19)]'>
+      <StarsCanvas />
           <Navbar />
           <Hero />
           <About />
-          <Experience />
           <Tech />
+          <Experience />
           <Works />
           <Contact />
-        </div>
       </div>
     </BrowserRouter>
   );

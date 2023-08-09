@@ -212,4 +212,13 @@
       -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.5),
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
+  
+}
+
+.transform-color-nav {
+  transition: background-color 0.3s ease; /* Adjust the time (0.3s) to your preference */
+}
+
+.transform-color-nav.active {
+  background-color: rgb(46, 46, 46);
 }
