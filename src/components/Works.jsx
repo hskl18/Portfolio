@@ -16,9 +16,17 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  source_web
 }) => {
+
+  function handleOnClick() {
+    if (source_web !== "") {
+      window.open(source_web, "_blank");
+    }
+  }
+
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} onClick={handleOnClick}>
       <Tilt
         options={{
           max: 45,
