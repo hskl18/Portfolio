@@ -222,3 +222,42 @@
 .transform-color-nav.active {
   background-color: rgb(46, 46, 46);
 }
+
+.tictactoe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 0;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #fff;
+}
+
+.board-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.square {
+  width: 100px;          /* Increase size */
+  height: 100px;         /* Increase size */
+  font-size: 48px;       /* Increase font size */
+  font-weight: bold;
+  border: 3px solid #fff; /* Thicker border */
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;           /* Text color to white */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.status {
+  margin: 20px;
+  font-size: 32px;       /* Increase font size */
+  font-weight: bold;
+  color: #fff;
+}

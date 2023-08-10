@@ -6,6 +6,7 @@ import Tech from './Tech';
 import Experience from './Experience';
 import Works from './Works';
 import Contact from './Contact';
+import TicTacToe from './ttt';
 
 export {
   Hero,
@@ -16,6 +17,7 @@ export {
   Experience,
   Works,
   Contact,
+  TicTacToe,
 
   EarthCanvas, 
   BallCanvas, 
