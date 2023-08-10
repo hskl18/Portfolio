@@ -32,6 +32,7 @@ import usosu from "./company/usosu.jpg";
 import mincrosft from "./company/mincrosft.png";
 
 import carrent from "./carrent.png";
+import AI from "./AIweb.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -69,6 +70,7 @@ export {
   mincrosft,
   
   carrent,
+  AI,
   jobit,
   tripguide,
 };

@@ -21,6 +21,7 @@ import {
     mincrosft,
     
     carrent,
+    AI,
     jobit,
     tripguide,
     threejs,
@@ -194,6 +195,28 @@ import {
       image: carrent,
       source_code_link: "https://github.com/hskl18/car_showcase",
       source_web:"https://car-showcase-l24e3sq3v-hskl18.vercel.app/"
+    },
+    {
+      name: "AI Summarizer",
+      description:
+        "WA web project that leverages the power of machine learning to provide succinct summaries of online articles.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "rapidapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: AI,
+      source_code_link: "https://github.com/hskl18/AI_Summarizer/",
+      source_web:"https://ai-summarizer-gzyjekcdh-hskl18.vercel.app/"
     },
     
   ];
