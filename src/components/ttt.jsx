@@ -8,7 +8,7 @@ const TicTacToe = () => {
   const winner = calculateWinner(board);
 
   useEffect(() => {
-    if (!isXNext && !winner) {
+    if (!isXNext && !winner && getAvailableMoves(board).length > 0) {
       setTimeout(() => {
         const move = minimax(board, 'O').index;
         const newBoard = board.slice();
