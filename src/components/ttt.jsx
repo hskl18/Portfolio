@@ -33,7 +33,7 @@ const TicTacToe = () => {
   };
 
   const renderSquare = (index) => (
-    <button className="w-24 h-24 text-4xl font-bold border-4 border-white cursor-pointer bg-white bg-opacity-10 text-white flex items-center justify-center" onClick={() => handleClick(index)}>
+    <button className="w-24 h-24 text-4xl font-bold border-4 border-white cursor-pointer bg-transparent bg-opacity-10 text-white flex items-center justify-center" onClick={() => handleClick(index)}>
       {board[index]}
     </button>
   );
