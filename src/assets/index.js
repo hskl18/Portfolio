@@ -33,6 +33,8 @@ import mincrosft from "./company/mincrosft.png";
 
 import carrent from "./carrent.png";
 import AI from "./AIweb.png";
+import codeBot from "./codebot.png";
+import coming from "./coming.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -71,6 +73,8 @@ export {
   
   carrent,
   AI,
+  codeBot,
+  coming,
   jobit,
   tripguide,
 };

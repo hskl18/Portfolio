@@ -25,6 +25,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    codeBot,
+    coming,
   } from "../assets";
   
   export const navLinks = [
@@ -218,7 +220,39 @@ import {
       source_code_link: "https://github.com/hskl18/AI_Summarizer/",
       source_web:"https://ai-summarizer-gzyjekcdh-hskl18.vercel.app/"
     },
-    
+    {
+      name: "Coding Bot",
+      description:
+        "(Just a demo, I didn't turn on the server of API) A web project that call OPenAI API of text-davinci-003 to generate code based on the description of the problem.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "openapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: codeBot,
+      source_code_link: "https://github.com/hskl18/Coding_Bot",
+      source_web:"https://coding-99z09wpfm-hskl18.vercel.app/"
+    },
+    {
+      name: "More are coming soon...",
+      description:
+        "Click here to check my github!",
+      tags: [
+        
+      ],
+      image: coming,
+      source_code_link: "https://github.com/hskl18/",
+      source_web:"https://github.com/hskl18/"
+    },
   ];
   
   export { services, technologies, experiences, projects };
