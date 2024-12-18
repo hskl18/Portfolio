@@ -23,7 +23,7 @@ const App = () => {
         <Works />
         <Experience />
         {/* <TicTacToe /> */}
-        <Contact />
+        {/* <Contact /> */}
       </div>
     </BrowserRouter>
   );
